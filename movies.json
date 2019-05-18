@@ -2,14 +2,14 @@
 "folders": [
 	{
 		"name" : "Tamil",
-		"poster" : "",
-		"fanart" : "",
+		"poster" : "https://raw.githubusercontent.com/shijucj/kodi/master/tamil.png",
+		"fanart" : "https://raw.githubusercontent.com/shijucj/kodi/master/tamil.png",
 		"site_json": ""
 	},
 	{
 		"name" : "Malayalam",
-		"poster" : "",
-		"fanart" : "",
+		"poster" : "https://raw.githubusercontent.com/shijucj/kodi/master/malayalam.png",
+		"fanart" : "https://raw.githubusercontent.com/shijucj/kodi/master/malayalam.png",
 		"site_json": ""
 	}
 ],
@@ -17,8 +17,8 @@
 	{
 		"name": "TamilGun",
 		"folder": "Tamil",
-		"poster": "",
-		"fanart": "",
+		"poster": "https://raw.githubusercontent.com/shijucj/kodi/master/tamilgun.png",
+		"fanart": "https://raw.githubusercontent.com/shijucj/kodi/master/tamilgun.png",
 		"items": {
 			"HD Movies": [
 				{
@@ -97,8 +97,8 @@
 	{
 		"name": "2Movierulz",
 		"folder": "Tamil",
-		"poster": "",
-		"fanart": "",
+		"poster": "https://raw.githubusercontent.com/shijucj/kodi/master/movierulz.png",
+		"fanart": "https://raw.githubusercontent.com/shijucj/kodi/master/movierulz.png",
 		"items": {
 			"Tamil Movies": [
 				{
@@ -119,8 +119,8 @@
 					"url": "{%2}",
 					"name": "{%1}",
 					"plot": "{%3}",
-					"poster": "",
-					"fanart": ""
+					"poster": "https://raw.githubusercontent.com/shijucj/kodi/master/movierulz.png",
+					"fanart": "https://raw.githubusercontent.com/shijucj/kodi/master/movierulz.png"
 				}
 			]
 		}
@@ -128,8 +128,8 @@
 	{
 		"name": "GoFilms4U",
 		"folder": "Tamil",
-		"poster": "",
-		"fanart": "",
+		"poster": "https://raw.githubusercontent.com/shijucj/kodi/master/gofilms.png",
+		"fanart": "https://raw.githubusercontent.com/shijucj/kodi/master/gofilms.png",
 		"items": {
 			"Tamil Movies": [
 				{
@@ -148,8 +148,8 @@
 					"url": "{%1}",
 					"name": "{%2}",
 					"plot": "",
-					"poster": "",
-					"fanart": ""
+					"poster": "https://raw.githubusercontent.com/shijucj/kodi/master/gofilms.png",
+					"fanart": "https://raw.githubusercontent.com/shijucj/kodi/master/gofilms.png"
 				}
 			]
 		}
@@ -157,8 +157,8 @@
 	{
 		"name": "ThiruttuVCD",
 		"folder": "Tamil",
-		"poster": "",
-		"fanart": "",
+		"poster": "https://raw.githubusercontent.com/shijucj/kodi/master/thiruttuvcd.png",
+		"fanart": "https://raw.githubusercontent.com/shijucj/kodi/master/thiruttuvcd.png",
 		"items": {
 			"Tamil Movies": [
 				{
@@ -179,8 +179,8 @@
 					"url": "{%1}",
 					"name": "Watch {%2} movie",
 					"plot": "",
-					"poster": "",
-					"fanart": ""
+					"poster": "https://raw.githubusercontent.com/shijucj/kodi/master/thiruttuvcd.png",
+					"fanart": "https://raw.githubusercontent.com/shijucj/kodi/master/thiruttuvcd.png"
 				}
 			]
 		}
@@ -190,8 +190,8 @@
 	{
 		"name": "TorMalayalam",
 		"folder": "Malayalam",
-		"poster": "",
-		"fanart": "",
+		"poster": "https://raw.githubusercontent.com/shijucj/kodi/master/tor.png",
+		"fanart": "https://raw.githubusercontent.com/shijucj/kodi/master/tor.png",
 		"items": {
 			"Malayalam Movies": [
 				{
@@ -212,8 +212,8 @@
 					"url": "{%2}",
 					"name": "{%1}",
 					"plot": "",
-					"poster": "",
-					"fanart": ""
+					"poster": "https://raw.githubusercontent.com/shijucj/kodi/master/tor.png",
+					"fanart": "https://raw.githubusercontent.com/shijucj/kodi/master/tor.png"
 				}
 			]
 		}
@@ -221,8 +221,8 @@
 	{
 		"name": "v100v",
 		"folder": "Malayalam",
-		"poster": "",
-		"fanart": "",
+		"poster": "https://raw.githubusercontent.com/shijucj/kodi/master/v100v.png",
+		"fanart": "https://raw.githubusercontent.com/shijucj/kodi/master/v100v.png",
 		"items": {
 			"Malayalam Movies": [
 				{
@@ -243,16 +243,16 @@
 					"url": "{%1}trid={%2}",
 					"name": "Fetch Movie Link",
 					"plot": "Fetch Movie Link",
-					"poster": "",
-					"fanart": ""
+					"poster": "https://raw.githubusercontent.com/shijucj/kodi/master/v100v.png",
+					"fanart": "https://raw.githubusercontent.com/shijucj/kodi/master/v100v.png"
 				},
 				{
 					"pattern": "iframe{*}src=\"{%}\"{*}allow{%}screen",
 					"url": "{%1}",
 					"name": "Watch {%2} movie",
 					"plot": "Watch {%2} movie",
-					"poster": "",
-					"fanart": ""
+					"poster": "https://raw.githubusercontent.com/shijucj/kodi/master/v100v.png",
+					"fanart": "https://raw.githubusercontent.com/shijucj/kodi/master/v100v.png"
 				}
 			]
 		}
@@ -260,8 +260,8 @@
 	{
 		"name": "GoFilms4U",
 		"folder": "Malayalam",
-		"poster": "",
-		"fanart": "",
+		"poster": "https://raw.githubusercontent.com/shijucj/kodi/master/gofilms.png",
+		"fanart": "https://raw.githubusercontent.com/shijucj/kodi/master/gofilms.png",
 		"items": {
 			"Malayalam Movies": [
 				{
@@ -280,8 +280,8 @@
 					"url": "{%1}",
 					"name": "{%2}",
 					"plot": "",
-					"poster": "",
-					"fanart": ""
+					"poster": "https://raw.githubusercontent.com/shijucj/kodi/master/gofilms.png",
+					"fanart": "https://raw.githubusercontent.com/shijucj/kodi/master/gofilms.png"
 				}
 			]
 		}
@@ -289,8 +289,8 @@
 	{
 		"name": "ThiruttuVCD",
 		"folder": "Malayalam",
-		"poster": "",
-		"fanart": "",
+		"poster": "https://raw.githubusercontent.com/shijucj/kodi/master/thiruttuvcd.png",
+		"fanart": "https://raw.githubusercontent.com/shijucj/kodi/master/thiruttuvcd.png",
 		"items": {
 			"Malayalam Movies": [
 				{
@@ -311,8 +311,8 @@
 					"url": "{%1}",
 					"name": "Watch {%2} movie",
 					"plot": "",
-					"poster": "",
-					"fanart": ""
+					"poster": "https://raw.githubusercontent.com/shijucj/kodi/master/thiruttuvcd.png",
+					"fanart": "https://raw.githubusercontent.com/shijucj/kodi/master/thiruttuvcd.png"
 				}
 			]
 		}
