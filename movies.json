@@ -1,0 +1,321 @@
+{
+"folders": [
+	{
+		"name" : "Tamil",
+		"poster" : "",
+		"fanart" : "",
+		"site_json": ""
+	},
+	{
+		"name" : "Malayalam",
+		"poster" : "",
+		"fanart" : "",
+		"site_json": ""
+	}
+],
+"sites": [
+	{
+		"name": "TamilGun",
+		"folder": "Tamil",
+		"poster": "",
+		"fanart": "",
+		"items": {
+			"HD Movies": [
+				{
+					"site_url": "http://tamilgun.io/categories/hd-movies/",
+					"global": "</header>{%}<footer id=\"footer\"",
+					"pattern": "image-holder{*}src=\" {%} \" alt=\"{%}\"{*}href=\"{%}\"",
+					"url": "{%3}",
+					"name": "{%2}",
+					"plot": "{%2}",
+					"poster": "{%1}",
+					"fanart": "{%1}",
+					"next_pattern": "next page-numbers{*}href=\"{%}\"",
+					"next_url": "{%1}"
+				},
+				{
+					"global": "<div class=\"video-container\">{%}<div class=\"entry-excerpt\">",
+					"pattern": "iframe{*}src=\"{%}/hls_stream/{%}\"{*}post-title\">{%}</h1>",
+					"url": "http:{%1}/hls/{%2}/playlist.m3u8",
+					"name": "Watch {%3}",
+					"plot": "Click to Watch {%3}",
+					"poster": "",
+					"fanart": ""
+				}
+			],
+			
+			"New Movies": [
+				{
+					"site_url": "http://tamilgun.io/categories/new-movies-a/",
+					"global": "</header>{%}<footer id=\"footer\"",
+					"pattern": "image-holder{*}src=\" {%} \" alt=\"{%}\"{*}href=\"{%}\"",
+					"url": "{%3}",
+					"name": "{%2}",
+					"plot": "{%2}",
+					"poster": "{%1}",
+					"fanart": "{%1}",
+					"next_pattern": "next page-numbers{*}href=\"{%}\"",
+					"next_url": "{%1}"
+				},
+				{
+					"global": "<div class=\"video-container\">{%}<div class=\"entry-excerpt\">",
+					"pattern": "iframe{*}src=\"{%}/hls_stream/{%}\"{*}post-title\">{%}</h1>",
+					"url": "http:{%1}/hls/{%2}/playlist.m3u8",
+					"name": "Watch {%3}",
+					"plot": "Click to Watch {%3}",
+					"poster": "",
+					"fanart": ""
+				}
+			],
+			
+			"Dubbed Movies": [
+				{
+					"site_url": "http://tamilgun.io/categories/dubbed-movies/",
+					"global": "</header>{%}<footer id=\"footer\"",
+					"pattern": "image-holder{*}src=\" {%} \" alt=\"{%}\"{*}href=\"{%}\"",
+					"url": "{%3}",
+					"name": "{%2}",
+					"plot": "{%2}",
+					"poster": "{%1}",
+					"fanart": "{%1}",
+					"next_pattern": "next page-numbers{*}href=\"{%}\"",
+					"next_url": "{%1}"
+				},
+				{
+					"global": "<div class=\"video-container\">{%}<div class=\"entry-excerpt\">",
+					"pattern": "iframe{*}src=\"{%}/hls_stream/{%}\"{*}post-title\">{%}</h1>",
+					"url": "http:{%1}/hls/{%2}/playlist.m3u8",
+					"name": "Watch {%3}",
+					"plot": "Click to Watch {%3}",
+					"poster": "",
+					"fanart": ""
+				}
+			]
+			
+		}
+	},
+	{
+		"name": "2Movierulz",
+		"folder": "Tamil",
+		"poster": "",
+		"fanart": "",
+		"items": {
+			"Tamil Movies": [
+				{
+					"site_url": "https://2movierulz.mx/tamil-movie-free/",
+					"global": "<!-- end title -->{%}<!-- end main -->",
+					"pattern": "cont_display{*}href=\"{%}\"{*}title=\"{%}\"{*}src=\"{%}\"",
+					"url": "{%1}",
+					"name": "{%2}",
+					"plot": "{%2}",
+					"poster": "{%3}",
+					"fanart": "{%3}",
+					"next_pattern": "nav-older{*}href=\"{%}\"",
+					"next_url": "{%1}"
+				},
+				{
+					"global": "– (if any issue){%}Posts navigation",
+					"pattern": "<p><strong>{%}</strong><br />{*}href=\"{%}\"{*}noopener\">{%}</a>",
+					"url": "{%2}",
+					"name": "{%1}",
+					"plot": "{%3}",
+					"poster": "",
+					"fanart": ""
+				}
+			]
+		}
+	},
+	{
+		"name": "GoFilms4U",
+		"folder": "Tamil",
+		"poster": "",
+		"fanart": "",
+		"items": {
+			"Tamil Movies": [
+				{
+					"site_url": "https://www.gofilms4u.io/category/tamil/",
+					"pattern": "<a class=\"thumbnail-link\" href=\"{%}\"{*}src=\"{%}\"{*}alt=\"{%}\"{*}video-length\">{*}{%}</span>",
+					"url": "{%1}",
+					"name": "[{%4}] {%3}",
+					"plot": "[{%4}] {%3}",
+					"poster": "{%2}",
+					"fanart": "{%2}",
+					"next_pattern": "link rel=\"next\" href=\"{%}\"",
+					"next_url": "{%1}"
+				},
+				{
+					"pattern": "data-target={*} data-href=\"{%}\"{*}rel=\"tooltip\"> {%} </a>",
+					"url": "{%1}",
+					"name": "{%2}",
+					"plot": "",
+					"poster": "",
+					"fanart": ""
+				}
+			]
+		}
+	},
+	{
+		"name": "ThiruttuVCD",
+		"folder": "Tamil",
+		"poster": "",
+		"fanart": "",
+		"items": {
+			"Tamil Movies": [
+				{
+					"site_url": "https://www.thiruttuvcd.stream/genre/tamil-movies/",
+					"global": "<!-- end .loop-actions -->{%}<!-- end .loop-content -->",
+					"pattern": "clip-link{*}title=\"{%}\" href=\"{%}\"{*}src=\"{%}\"",
+					"url": "{%2}",
+					"name": "{%1}",
+					"plot": "{%1}",
+					"poster": "{%3}",
+					"fanart": "{%3}",
+					"next_pattern": "link rel='next' href='{%}'",
+					"next_url": "{%1}"
+				},
+				{
+					"global": "<ul class=\"tab-content\"{%}</ul>",
+					"pattern": "tab-pane{*}><{*}=\"{%}\"{*}allow{%}screen",
+					"url": "{%1}",
+					"name": "Watch {%2} movie",
+					"plot": "",
+					"poster": "",
+					"fanart": ""
+				}
+			]
+		}
+	},
+	
+	
+	{
+		"name": "TorMalayalam",
+		"folder": "Malayalam",
+		"poster": "",
+		"fanart": "",
+		"items": {
+			"Malayalam Movies": [
+				{
+					"site_url": "https://tormalayalam.in/itemlist?start=0",
+					"global": "<!-- K2 Plugins: K2AfterDisplayTitle -->{%}<!-- Pagination -->",
+					"pattern": "catItemImage{*}href=\"{%}\"{*}title=\"{%}\"{*}src=\"{%}\"",
+					"url": "https://tormalayalam.in{%1}",
+					"name": "{%2}",
+					"plot": "{%2}",
+					"poster": "{%3}",
+					"fanart": "{%3}",
+					"next_pattern": "class=\"next\" href=\"{%}\" ",
+					"next_url": "https://tormalayalam.in{%1}"
+				},
+				{
+					"global": "<!-- JoomlaWorks \"AllVideos\" Plugin (v4.8.0) ends here -->{%}<!-- Plugins: AfterDisplayContent -->",
+					"pattern": "text-decoration: underline;\">{%}</span>{*}href=\"{%}\"",
+					"url": "{%2}",
+					"name": "{%1}",
+					"plot": "",
+					"poster": "",
+					"fanart": ""
+				}
+			]
+		}
+	},
+	{
+		"name": "v100v",
+		"folder": "Malayalam",
+		"poster": "",
+		"fanart": "",
+		"items": {
+			"Malayalam Movies": [
+				{
+					"site_url": "http://v100v.net/category/malayalam/",
+					"global": "<!--<Main>-->{%}<!--</Main>-->",
+					"pattern": "<li class=\"TPostMv\">{*}href=\"{%}\"{*}src=\"{%}\"{*}<h3 class=\"Title\">{%}</h3>{*}<span class=\"Year\">{%}</span>{*}<div class=\"Description\"><p>{%}..</p>",
+					"url": "{%1}",
+					"name": "{%3} [{%4}]",
+					"plot": "{%5}",
+					"poster": "{%2}",
+					"fanart": "{%2}",
+					"next_pattern": "class=\"next{*}href=\"{%}\"",
+					"next_url": "{%1}"
+				},
+				{
+					"global": "<!--<TPlayerCn>-->{%}<!--</TPlayerCn>-->",
+					"pattern": "TPlayerTb Current{*}iframe{*}src=\"{%}#{*}trid={%}\"",
+					"url": "{%1}trid={%2}",
+					"name": "Fetch Movie Link",
+					"plot": "Fetch Movie Link",
+					"poster": "",
+					"fanart": ""
+				},
+				{
+					"pattern": "iframe{*}src=\"{%}\"{*}allow{%}screen",
+					"url": "{%1}",
+					"name": "Watch {%2} movie",
+					"plot": "Watch {%2} movie",
+					"poster": "",
+					"fanart": ""
+				}
+			]
+		}
+	},
+	{
+		"name": "GoFilms4U",
+		"folder": "Malayalam",
+		"poster": "",
+		"fanart": "",
+		"items": {
+			"Malayalam Movies": [
+				{
+					"site_url": "https://www.gofilms4u.io/category/malayalam/",
+					"pattern": "<a class=\"thumbnail-link\" href=\"{%}\"{*}src=\"{%}\"{*}alt=\"{%}\"{*}video-length\">{*}{%}</span>",
+					"url": "{%1}",
+					"name": "[{%4}] {%3}",
+					"plot": "[{%4}] {%3}",
+					"poster": "{%2}",
+					"fanart": "{%2}",
+					"next_pattern": "link rel=\"next\" href=\"{%}\"",
+					"next_url": "{%1}"
+				},
+				{
+					"pattern": "data-target={*} data-href=\"{%}\"{*}rel=\"tooltip\"> {%} </a>",
+					"url": "{%1}",
+					"name": "{%2}",
+					"plot": "",
+					"poster": "",
+					"fanart": ""
+				}
+			]
+		}
+	},
+	{
+		"name": "ThiruttuVCD",
+		"folder": "Malayalam",
+		"poster": "",
+		"fanart": "",
+		"items": {
+			"Malayalam Movies": [
+				{
+					"site_url": "https://www.thiruttuvcd.stream/genre/malayalam-movies/page/1/",
+					"global": "<!-- end .loop-actions -->{%}<!-- end .loop-content -->",
+					"pattern": "clip-link{*}title=\"{%}\" href=\"{%}\"{*}src=\"{%}\"",
+					"url": "{%2}",
+					"name": "{%1}",
+					"plot": "{%1}",
+					"poster": "{%3}",
+					"fanart": "{%3}",
+					"next_pattern": "link rel='next' href='{%}'",
+					"next_url": "{%1}"
+				},
+				{
+					"global": "<ul class=\"tab-content\"{%}</ul>",
+					"pattern": "tab-pane{*}><{*}=\"{%}\"{*}allow{%}screen",
+					"url": "{%1}",
+					"name": "Watch {%2} movie",
+					"plot": "",
+					"poster": "",
+					"fanart": ""
+				}
+			]
+		}
+	}
+]
+}
