@@ -30,8 +30,8 @@
 					"plot": "{%2}",
 					"poster": "{%1}",
 					"fanart": "{%1}",
-					"next_pattern": "next page-numbers{*}href=\"{%}\"",
-					"next_url": "{%1}"
+					"next_pattern": "next page-numbers{*}href=\"{*}/page/{%}/\"",
+					"next_url": "http://tamilgun.io/categories/hd-movies/page/{%1}/"
 				},
 				{
 					"global": "<div class=\"video-container\">{%}<div class=\"entry-excerpt\">",
@@ -54,8 +54,8 @@
 					"plot": "{%2}",
 					"poster": "{%1}",
 					"fanart": "{%1}",
-					"next_pattern": "next page-numbers{*}href=\"{%}\"",
-					"next_url": "{%1}"
+					"next_pattern": "next page-numbers{*}href=\"{*}/page/{%}/\"",
+					"next_url": "http://tamilgun.io/categories/new-movies-a/page/{%1}/"
 				},
 				{
 					"global": "<div class=\"video-container\">{%}<div class=\"entry-excerpt\">",
@@ -78,8 +78,8 @@
 					"plot": "{%2}",
 					"poster": "{%1}",
 					"fanart": "{%1}",
-					"next_pattern": "next page-numbers{*}href=\"{%}\"",
-					"next_url": "{%1}"
+					"next_pattern": "next page-numbers{*}href=\"{*}/page/{%}/\"",
+					"next_url": "http://tamilgun.io/categories/dubbed-movies/page/{%1}/"
 				},
 				{
 					"global": "<div class=\"video-container\">{%}<div class=\"entry-excerpt\">",
@@ -110,8 +110,8 @@
 					"plot": "{%2}",
 					"poster": "{%3}",
 					"fanart": "{%3}",
-					"next_pattern": "nav-older{*}href=\"{%}\"",
-					"next_url": "{%1}"
+					"next_pattern": "nav-older{*}href=\"{*}/page/{%}/\"",
+					"next_url": "https://2movierulz.mx/tamil-movie-free/page/{%1}/"
 				},
 				{
 					"global": "– (if any issue){%}Posts navigation",
@@ -140,8 +140,8 @@
 					"plot": "[{%4}] {%3}",
 					"poster": "{%2}",
 					"fanart": "{%2}",
-					"next_pattern": "link rel=\"next\" href=\"{%}\"",
-					"next_url": "{%1}"
+					"next_pattern": "next page-numbers{*}href=\"{*}/page/{%}/\"",
+					"next_url": "https://www.gofilms4u.io/category/tamil/page/{%1}/"
 				},
 				{
 					"pattern": "data-target={*} data-href=\"{%}\"{*}rel=\"tooltip\"> {%} </a>",
@@ -170,8 +170,8 @@
 					"plot": "{%1}",
 					"poster": "{%3}",
 					"fanart": "{%3}",
-					"next_pattern": "link rel='next' href='{%}'",
-					"next_url": "{%1}"
+					"next_pattern": "nextpostslink{*}\"{*}/page/{%}/\"",
+					"next_url": "https://thiruttuvcd.stream/genre/tamil-movies/page/{%1}/"
 				},
 				{
 					"global": "<ul class=\"tab-content\"{%}</ul>",
