@@ -22,7 +22,7 @@
 		"items": {
 			"HD Movies": [
 				{
-					"site_url": "http://tamilgun.io/categories/hd-movies/",
+					"site_url": "http://tamilgun.io/categories/hd-movies/page/1/",
 					"global": "</header>{%}<footer id=\"footer\"",
 					"pattern": "image-holder{*}src=\" {%} \" alt=\"{%}\"{*}href=\"{%}\"",
 					"url": "{%3}",
@@ -46,7 +46,7 @@
 			
 			"New Movies": [
 				{
-					"site_url": "http://tamilgun.io/categories/new-movies-a/",
+					"site_url": "http://tamilgun.io/categories/new-movies-a/page/1/",
 					"global": "</header>{%}<footer id=\"footer\"",
 					"pattern": "image-holder{*}src=\" {%} \" alt=\"{%}\"{*}href=\"{%}\"",
 					"url": "{%3}",
@@ -70,7 +70,7 @@
 			
 			"Dubbed Movies": [
 				{
-					"site_url": "http://tamilgun.io/categories/dubbed-movies/",
+					"site_url": "http://tamilgun.io/categories/dubbed-movies/page/1/",
 					"global": "</header>{%}<footer id=\"footer\"",
 					"pattern": "image-holder{*}src=\" {%} \" alt=\"{%}\"{*}href=\"{%}\"",
 					"url": "{%3}",
