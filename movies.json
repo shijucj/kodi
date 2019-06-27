@@ -55,7 +55,7 @@
 					"poster": "{%1}",
 					"fanart": "{%1}",
 					"next_pattern": "next page-numbers{*}href=\"{*}/page/{%}/\">{%}</a>",
-					"next_url": "http://tamilgun.be/categories/hd-movies/page/2/"
+					"next_url": "http://tamilgun.be/categories/hd-movies/page/{%1}/"
 				},
 				{
 					"global": "<div class=\"video-container\">{%}<div class=\"entry-excerpt\">",
