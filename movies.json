@@ -20,9 +20,9 @@
 		"poster": "https://raw.githubusercontent.com/shijucj/kodi/master/tamilgun.png",
 		"fanart": "https://raw.githubusercontent.com/shijucj/kodi/master/tamilgun.png",
 		"items": {
-			"HD Movies": [
+			"Bigg Boss 3": [
 				{
-					"site_url": "http://tamilgun.io/categories/hd-movies/page/1/",
+					"site_url": "http://tamilgun.be/categories/bigg-boss-3/page/1/",
 					"global": "</header>{%}<footer id=\"footer\"",
 					"pattern": "image-holder{*}src=\" {%} \" alt=\"{%}\"{*}href=\"{%}\"",
 					"url": "{%3}",
@@ -30,8 +30,32 @@
 					"plot": "{%2}",
 					"poster": "{%1}",
 					"fanart": "{%1}",
-					"next_pattern": "next page-numbers{*}href=\"{*}/page/{%}/\"",
-					"next_url": "http://tamilgun.io/categories/hd-movies/page/{%1}/"
+					"next_pattern": "next page-numbers{*}href=\"{*}/page/{%}/\">{%}</a>",
+					"next_url": "http://tamilgun.be/categories/bigg-boss-3/page/{%1}/"
+				},
+				{
+					"global": "<div class=\"video-container\">{%}<div class=\"entry-excerpt\">",
+					"pattern": "iframe{*}src=\"{%}/hls_stream/{%}\"{*}post-title\">{%}</h1>",
+					"url": "http:{%1}/hls/{%2}/playlist.m3u8",
+					"name": "Watch {%3}",
+					"plot": "Click to Watch {%3}",
+					"poster": "https://raw.githubusercontent.com/shijucj/kodi/master/tamilgun.png",
+					"fanart": "https://raw.githubusercontent.com/shijucj/kodi/master/tamilgun.png"
+				}
+			],
+			
+			"HD Movies": [
+				{
+					"site_url": "http://tamilgun.be/categories/hd-movies/page/1/",
+					"global": "</header>{%}<footer id=\"footer\"",
+					"pattern": "image-holder{*}src=\" {%} \" alt=\"{%}\"{*}href=\"{%}\"",
+					"url": "{%3}",
+					"name": "{%2}",
+					"plot": "{%2}",
+					"poster": "{%1}",
+					"fanart": "{%1}",
+					"next_pattern": "next page-numbers{*}href=\"{*}/page/{%}/\">{%}</a>",
+					"next_url": "http://tamilgun.be/categories/hd-movies/page/2/"
 				},
 				{
 					"global": "<div class=\"video-container\">{%}<div class=\"entry-excerpt\">",
@@ -46,7 +70,7 @@
 			
 			"New Movies": [
 				{
-					"site_url": "http://tamilgun.io/categories/new-movies-a/page/1/",
+					"site_url": "http://tamilgun.be/categories/new-movies-a/page/1/",
 					"global": "</header>{%}<footer id=\"footer\"",
 					"pattern": "image-holder{*}src=\" {%} \" alt=\"{%}\"{*}href=\"{%}\"",
 					"url": "{%3}",
@@ -55,7 +79,7 @@
 					"poster": "{%1}",
 					"fanart": "{%1}",
 					"next_pattern": "next page-numbers{*}href=\"{*}/page/{%}/\"",
-					"next_url": "http://tamilgun.io/categories/new-movies-a/page/{%1}/"
+					"next_url": "http://tamilgun.be/categories/new-movies-a/page/{%1}/"
 				},
 				{
 					"global": "<div class=\"video-container\">{%}<div class=\"entry-excerpt\">",
@@ -70,7 +94,7 @@
 			
 			"Dubbed Movies": [
 				{
-					"site_url": "http://tamilgun.io/categories/dubbed-movies/page/1/",
+					"site_url": "http://tamilgun.be/categories/dubbed-movies/page/1/",
 					"global": "</header>{%}<footer id=\"footer\"",
 					"pattern": "image-holder{*}src=\" {%} \" alt=\"{%}\"{*}href=\"{%}\"",
 					"url": "{%3}",
@@ -79,7 +103,7 @@
 					"poster": "{%1}",
 					"fanart": "{%1}",
 					"next_pattern": "next page-numbers{*}href=\"{*}/page/{%}/\"",
-					"next_url": "http://tamilgun.io/categories/dubbed-movies/page/{%1}/"
+					"next_url": "http://tamilgun.be/categories/dubbed-movies/page/{%1}/"
 				},
 				{
 					"global": "<div class=\"video-container\">{%}<div class=\"entry-excerpt\">",
