@@ -209,6 +209,36 @@
 			]
 		}
 	},
+	{
+		"name": "SkyTamil",
+		"folder": "Tamil",
+		"poster": "https://raw.githubusercontent.com/shijucj/kodi/master/thiruttuvcd.png",
+		"fanart": "https://raw.githubusercontent.com/shijucj/kodi/master/thiruttuvcd.png",
+		"items": {
+			"Bigg Boss Tamil": [
+				{
+					"site_url": "http://www.skytamil.net/category/bigg-boss-tamil-season-3/page/1/",
+					"global": "homepage-posts{%}post-pagination",
+					"pattern": "article{*}href=\"{%}\"{*}src=\"{%}\"{*}<h4>{*}bookmark\">{%}</a>",
+					"url": "{%1}",
+					"name": "{%3}",
+					"plot": "{%3}",
+					"poster": "{%2}",
+					"fanart": "{%2}",
+					"next_pattern": "post-pagination{*}next{*}href=\"{%}\"",
+					"next_url": "{%1}"
+				},
+				{
+					"pattern": "entry-title\">{%}</h1>{*}iframe{*}src=\"{%}\"",
+					"url": "{%2}",
+					"name": "Watch - {%1}",
+					"plot": "",
+					"poster": "https://raw.githubusercontent.com/shijucj/kodi/master/thiruttuvcd.png",
+					"fanart": "https://raw.githubusercontent.com/shijucj/kodi/master/thiruttuvcd.png"
+				}
+			]
+		}
+	},
 	
 	
 	{
